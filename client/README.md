@@ -1,16 +1,50 @@
-# React + Vite
+# 🚀 DevTrace – AI GitHub Repository Health Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DevTrace is a modern web application that analyzes public GitHub repositories and provides repository insights, analytics, and health scores using the GitHub REST API.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://dev-trace-zeta.vercel.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/lia753/DevTrace
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search any public GitHub repository
+- ⭐ Repository statistics (Stars, Forks, Issues)
+- 📈 Repository Health Score
+- 📊 Repository Analytics Dashboard
+- 🤖 AI-style Repository Review
+- 👤 Repository Owner Information
+- 📱 Responsive UI
+
+## 🛠 Tech Stack
+
+- React.js
+- Vite
+- JavaScript
+- Axios
+- GitHub REST API
+- CSS
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/lia753/DevTrace.git
+
+cd DevTrace/client
+
+npm install
+
+npm run dev
+```
+
+## Future Improvements
+
+- AI-powered repository recommendations
+- Commit history analysis
+- Contributor analytics
+- Dark/Light themes
+- Export repository reports
